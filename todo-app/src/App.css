@@ -1,0 +1,38 @@
+.App {
+  margin: 0px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App button {
+  margin: 10px 0;
+}
+
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  width: 100%;
+  gap: 10px;
+}
+
+.todoRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.todoRow span {
+  text-align: left;
+  flex: 4;
+}
+
+.todoRow button {
+  flex: 1;
+}
